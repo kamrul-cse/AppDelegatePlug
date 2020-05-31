@@ -1,0 +1,16 @@
+PODS:
+  - AppDelegatePlug (0.1.0)
+
+DEPENDENCIES:
+  - AppDelegatePlug (from `../`)
+
+EXTERNAL SOURCES:
+  AppDelegatePlug:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppDelegatePlug: a6da886b63d787664e612d07396b91f06f8c6c90
+
+PODFILE CHECKSUM: c7fcdaf2effa6d8828988393d7e905787f00725a
+
+COCOAPODS: 1.9.1

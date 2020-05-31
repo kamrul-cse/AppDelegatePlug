@@ -1,0 +1,22 @@
+{
+  "name": "AppDelegatePlug",
+  "version": "0.1.0",
+  "summary": "A short description of AppDelegatePlug.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mhgolap11@gmail.com/AppDelegatePlug",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mhgolap11@gmail.com": "mhgolap11@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mhgolap11@gmail.com/AppDelegatePlug.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AppDelegatePlug/Classes/**/*"
+}

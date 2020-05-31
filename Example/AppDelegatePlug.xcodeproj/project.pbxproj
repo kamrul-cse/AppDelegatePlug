@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02D525962483F3DC00D63270 /* AppStatePlug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D525952483F3DC00D63270 /* AppStatePlug.swift */; };
+		02D525982483F77D00D63270 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D525972483F77D00D63270 /* SceneDelegate.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,9 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02D525952483F3DC00D63270 /* AppStatePlug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStatePlug.swift; sourceTree = "<group>"; };
+		02D525972483F77D00D63270 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		02EDFB14A4BAAE0E170BA790 /* Pods-AppDelegatePlug_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDelegatePlug_Tests.release.xcconfig"; path = "Target Support Files/Pods-AppDelegatePlug_Tests/Pods-AppDelegatePlug_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		18F363AB369DB81A627A283E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		321DE893AF9B2A26C9162F4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		18F363AB369DB81A627A283E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		321DE893AF9B2A26C9162F4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51561E8A034CB355BBF4B6F4 /* Pods-AppDelegatePlug_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDelegatePlug_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AppDelegatePlug_Tests/Pods-AppDelegatePlug_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AppDelegatePlug_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDelegatePlug_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +50,7 @@
 		BC7E9FDB7205AAC9AE56E449 /* Pods-AppDelegatePlug_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDelegatePlug_Example.release.xcconfig"; path = "Target Support Files/Pods-AppDelegatePlug_Example/Pods-AppDelegatePlug_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C7F5882A914D884949B04130 /* Pods-AppDelegatePlug_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDelegatePlug_Example.debug.xcconfig"; path = "Target Support Files/Pods-AppDelegatePlug_Example/Pods-AppDelegatePlug_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D79CA41DA1BC8DEA1CF4D3BA /* Pods_AppDelegatePlug_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppDelegatePlug_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E34C75D6C73A9D4EFDD24799 /* AppDelegatePlug.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AppDelegatePlug.podspec; path = ../AppDelegatePlug.podspec; sourceTree = "<group>"; };
+		E34C75D6C73A9D4EFDD24799 /* AppDelegatePlug.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AppDelegatePlug.podspec; path = ../AppDelegatePlug.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D525942483F3A100D63270 /* AppServices */ = {
+			isa = PBXGroup;
+			children = (
+				02D525952483F3DC00D63270 /* AppStatePlug.swift */,
+			);
+			name = AppServices;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,7 +105,9 @@
 		607FACD21AFB9204008FA782 /* Example for AppDelegatePlug */ = {
 			isa = PBXGroup;
 			children = (
+				02D525942483F3A100D63270 /* AppServices */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				02D525972483F77D00D63270 /* SceneDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -147,7 +161,6 @@
 				51561E8A034CB355BBF4B6F4 /* Pods-AppDelegatePlug_Tests.debug.xcconfig */,
 				02EDFB14A4BAAE0E170BA790 /* Pods-AppDelegatePlug_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +240,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -332,7 +346,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				02D525962483F3DC00D63270 /* AppStatePlug.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				02D525982483F77D00D63270 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -479,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppDelegatePlug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppDelegatePlug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

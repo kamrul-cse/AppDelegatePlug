@@ -1,0 +1,6 @@
+framework module AppDelegatePlug {
+  umbrella header "AppDelegatePlug-umbrella.h"
+
+  export *
+  module * { export * }
+}

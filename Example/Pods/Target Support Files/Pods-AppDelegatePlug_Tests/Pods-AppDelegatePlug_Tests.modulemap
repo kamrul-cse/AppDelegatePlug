@@ -1,0 +1,6 @@
+framework module Pods_AppDelegatePlug_Tests {
+  umbrella header "Pods-AppDelegatePlug_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
