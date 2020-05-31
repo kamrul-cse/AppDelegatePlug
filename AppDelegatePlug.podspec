@@ -25,7 +25,7 @@ Using AppDelegatePlug you separate AppDelegate from the services that you can pl
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Md. Kamrul Hasan' => 'mkhglab@gmail.com' }
-  s.source           = { :git => 'https://github.com/MKHGLab/AppDelegatePlug.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mkhglab@gmail.com/AppDelegatePlug.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
