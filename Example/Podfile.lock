@@ -1,5 +1,5 @@
 PODS:
-  - AppDelegatePlug (0.1.0)
+  - AppDelegatePlug (1.0.0)
 
 DEPENDENCIES:
   - AppDelegatePlug (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppDelegatePlug: a6da886b63d787664e612d07396b91f06f8c6c90
+  AppDelegatePlug: 3a9d58c64f71f85604fb327102ea7c2a4afccab9
 
 PODFILE CHECKSUM: c7fcdaf2effa6d8828988393d7e905787f00725a
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1
